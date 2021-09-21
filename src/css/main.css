@@ -1,0 +1,44 @@
+
+    .myClass {
+      margin: auto;
+      width: 40%;
+      padding: 20px;
+      background-color: lightgray;
+      text-align: center;
+      border: 2px solid blue;
+      margin-top: 20px;
+    }
+
+    .myClass2 {
+      width: 30.6%;
+      text-align: center;
+      margin-top: 20px;
+      margin-left: 30px;
+      background-color: whitesmoke;
+      border: 2px solid blue;
+
+      display: inline-block;
+    }
+
+    .imagem {
+        width: 100%
+    }
+
+      .rodape {
+          background-color: lightgray;
+          width: 100%;
+          text-align: center;
+      }
+
+
+      @media screen and (max-width: 600px) {
+          .myClass { width: 90%;   }
+          .myClass { margin: auto  }
+          .myClass { margin: 5px;  }
+
+          .myClass2 {width:96%;}
+          .myClass2 {margin: 8px;}
+
+          .imagem {width:70%;}
+
+      }
